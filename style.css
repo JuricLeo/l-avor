@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-weight: bolder; 
+}
+
+main {
+    background: linear-gradient(#131111 5%, #272727 90%);
+}
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+#containslike {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/prvii.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+    header a {
+        text-decoration: none;
+        color: #d4af37;
+        font-size: 25px;
+    }
+
+.prevoditelj {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 10px 0;
+}
+
+    #h6 {
+        margin-right: 10px;
+    }
+
+    #h6mail {
+        padding-right: 5px;
+    }
+
+    #razmak {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .prevoditelj a {
+        font-size: 12px;
+        color: white;
+    }
+
+        .prevoditelj a:hover {
+            font-size: 15px;
+            transition: 0.2s;
+        }
+
+#gore {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+    #gore li {
+        padding: 10px;
+    }
+
+        #gore li:hover {
+            padding: 15px;
+            color: #d4af37;
+            transition: 0.3s;
+        }
+
+#completlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+    #completlogo img {
+        width: 500px;
+    }
+
+    .logogoldgore {
+        padding-right: 10px;
+    }
+
+#clm {
+    display: none;
+}
+
+    #clm img {
+        width: 100%;
+    }
+
+    #svgani {
+        padding-right: 15px;
+    }
+
+#goreshow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    #lievi {
+        display: flex;
+        justify-content: baseline;
+    }
+
+    #goreshow li {
+        padding: 10px;
+        color: white;
+        margin: 0px 10px;
+    }
+
+        #goreshow li:hover {
+            color: #d4af37;
+            transition: 0.3s;
+        }
+
+#prvi {
+    color: white;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    #prvi h1 {
+        text-align: center;
+    }
+
+    #about {
+        font-size: 30px;
+    }
+
+#btn1 {
+    display: flex;
+    margin: auto;
+    background-color: #272727;
+    color: white;
+    width: 125px;
+    margin-top: 30px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+}
+
+    #btn1:hover {
+        width: 135px;
+        padding: 17px 0px 17px 0px;
+        color: #d4af37;
+        transition: 0.3s;
+        background-color: #131111;
+    }
+
+.article11 {
+    padding: 25px;
+    text-align: justify;
+    color: white;
+    font-weight: bolder;
+}
+
+    .article11 p, .article11 h1 {
+        margin-bottom: 20px;
+    }
+
+.naslov {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#dekori {
+    padding: 0;
+}
+
+/* PROIZVODI */
+
+                    #proizvodi {
+                        color: white;
+                    }
+
+                        #pro-p {
+                            text-align: center;
+                            font-size: 18px;
+                            margin: 0 80px 20px 80px;
+                        }
+
+                        .pro-kar p {
+                            color: white;
+                            text-decoration: none;
+                            margin: 20px 0;
+                            cursor: pointer;
+                        }
+
+                        .pro-kar:hover {
+                            cursor: pointer;
+                        }
+
+                    .proizvodi-contain {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    #kuhinja {
+                        display: flex;
+                        flex-direction: column;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Shutter/Kuhinja/Kuhinja_naslovna.jpg); 
+                        background-repeat: no-repeat;
+                    }
+
+                    #kuhinja:hover {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/Shutter/Kuhinja/Kuhinja_naslovna.jpg);
+                    }
+
+                    #kupaonica {
+                        display: flex;
+                        flex-direction: column;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Shutter/Kupaona/Kupaona_naslovna.jpg); 
+                        background-repeat: no-repeat;
+                    }
+                    
+                    #kupaonica:hover {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/Shutter/Kupaona/Kupaona_naslovna.jpg);
+                    }
+
+                    #dnevni {
+                        display: flex;
+                        flex-direction: column;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Shutter/Dnevna/Dnevna_naslovna.jpg); 
+                        background-repeat: no-repeat;
+                    }
+                    
+                    #dnevni:hover {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/Shutter/Dnevna/Dnevna_naslovna.jpg);
+                    }
+
+                    #eksterijer {
+                        display: flex;
+                        flex-direction: column;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Shutter/Eksterijer/Eksterijer_naslovna.jpg); 
+                        background-repeat: no-repeat;
+                    }
+                    
+                    #eksterijer:hover {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/Shutter/Eksterijer/Eksterijer_naslovna.jpg);
+                    }
+
+                    #posebni {
+                        display: flex;
+                        flex-direction: column;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Shutter/Dodaci/Dodaci_naslovna.jpg); 
+                        background-repeat: no-repeat;
+                    }
+                    
+                    #posebni:hover {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/Shutter/Dodaci/Dodaci_naslovna.jpg);
+                    }
+
+                    .pro-kar {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        box-shadow: 0px 5px 20px 0px rgba(244, 244, 245, 0.5);
+                        width: 300px;
+                        height: 300px;
+                        background-size: 300px 300px;
+                    }
+
+                    .pro-kar a {
+                        margin: 10px 0;
+                    }
+
+                    .proizvodi-contain {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        margin-bottom: 20px;
+                    }
+
+.article12 {
+    padding: 25px;
+    text-align: justify;
+    color: white;
+}  
+
+#animacija {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#uslugeh3 {
+    text-align: center;
+    color: white;
+}
+
+#uslugeh3 span {
+    color: #d4af37;
+}
+
+#drugiimg svg {
+    width: 80%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    background-color: #272727;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+    #btn a {
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        background-color: #131111;
+    }
+
+        #btn a:hover {
+            color: #d4af37;
+            transition: 0.3s;
+            padding: 26px;
+            background-color: #131111;
+        }
+
+#slike a {
+    color: white;
+    text-decoration: none;
+}
+
+    #btn a:hover {
+        color: #d4af37;
+    }
+
+
+#savkontakt {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+    background: linear-gradient(#272727 5%, #EAD79A 90%);
+}
+
+.savokontaktdiv {
+    width: 33%;
+}
+
+#radnovrijeme {
+    margin-top: 2%;
+    color: black;
+    padding: 0 20px;
+}
+
+#logobot img {
+    object-fit: cover;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#social a {
+    text-decoration: none;
+    color: black;
+}
+
+#socials2 {
+    padding-bottom: 10px;
+}
+
+    #socials2 h4 {
+        margin-top: 15px;
+    }
+
+#socials1 h4 {
+    margin-top: 5px;
+}
+
+    #socials1, #socials2 {
+        font-size: 20px;
+        color: black;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #social i {
+        margin: auto;
+    }
+
+    #social1 {
+        background-color: none;
+        padding: 10px;
+        font-size: 70px;
+        color: #d4af37;
+    }
+
+        #social1:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #social2 {
+        background-color: none;
+        padding: 10px;
+        font-size: 70px;
+        color: #d4af37;
+    }
+
+        #social2:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #socials3 a {
+        color: black;
+    }
+
+    .bxxx {
+        color: #9e7900;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    #socials1 h4 {
+        padding-top: 10px;
+    }
+
+
+
+/* tu je hamburger */
+
+.hamburger {
+    display: none;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    width: 60px;
+    margin: auto;
+}
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+
+#button {
+    margin-bottom: 10px;
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+
+/* manji display */
+
+@media (max-width: 1134px) {
+    #clm {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .prevoditelj {
+        margin-left: 20px;
+    }
+
+    #h6 {
+        display: none;
+    }
+
+    #gore {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        #gore li {
+            width: 80%;
+            margin: auto;
+        }
+
+        #gore h1 {
+            display: none;
+        }
+    
+#goreshow {
+    display: none;
+}
+
+.hamburger {
+    display: block;
+}
+
+#li2 {
+    margin-left: 10%;
+}
+            
+#li3 {
+    margin-left: 20%;
+}
+
+#li4 {
+    margin-left: 30%;
+}
+
+#li5 {
+    margin-left: 40%;
+}
+
+
+    #savkontakt {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#272727 5%, #EAD79A 90%);
+    }
+
+    .savokontaktdiv {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #radnovrijeme {
+        padding-bottom: 50px;
+    }
+
+#social {
+    margin: auto;
+}
+
+#logobot {
+    width: 90%;
+    margin: auto;
+    padding-right: 20px;
+}
+
+#proizvodi-contain-gore {
+    margin-bottom: 0;
+}
+
+}
+
+.tns-outer {
+    display: block;
+}
+
+.tns-controls {
+    display: none;
+}
+
+    .tns-controls button {
+        display: none;
+    }
+
+.tns-nav {
+    text-align: center;
+    margin-top: 20px;
+        padding: 10px;
+    display: block;
+}
+
+.tns-nav > [aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #ddd;
+    border: 0;
+}
+
+.tns-nav > .tns-nav-active {
+    background: #999;
+}
+
+[data-action] {
+    display: none;
+}
+
+.my-slider img {
+    object-fit: contain;
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+	font-family: 'Cormorant Upright', serif;
+    animation-fill-mode: forwards;
+    margin-bottom: 40px;
+}
+svg text {
+    font-family: 'Cormorant Upright', serif;
+    animation-fill-mode: forwards;
+	text-transform: uppercase;
+	animation: stroke 3s forwards;
+	stroke-width: 1;
+	stroke: #d4af37;
+	font-size: 350px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,20,0); stroke: white;
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
+	}
+	70%  {fill: rgba(72,138,20,0); stroke: white; }
+	80%  {fill: rgba(72,138,20,0); stroke: white; stroke-width: 1; }
+	100% {
+		fill: #d4af37; stroke: rgba(54,95,160,0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0; 
+	}
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.kartica {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    gap: 10px;
+    text-align: center;
+    color: inherit;
+    align-items: center;
+    padding: 30px;
+    width: auto;
+    background-size: cover;
+    color: white;
+}
+
+#kartica1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/karticabg1.jpg);
+    background-size: cover;
+}
+
+#kartica2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/karticabg2.jpg);
+    background-size: cover;
+}
+
+#kartica3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/karticabg2.jpg);
+    background-size: cover;
+}
+
+#kartica4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/karticabg4.jpg);
+    background-size: cover;
+}
+
+.kartica:hover {
+    background-color: #131111;
+	transform-origin: 0 bottom 0;
+	transform: scaleY(1);
+	transition: .2s ease-in-out;
+    box-shadow: none;
+    color: #d4af37;
+}
+
+
+
+@media (max-width: 1134px) {
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #drugiimg svg {
+        width: 100%;
+        padding: 5px 5px;
+    }
+
+    .proizvodi-contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pro-kar {
+        margin: auto;
+        max-width: 500px;
+        max-height: 500px;
+        background-size: cover;
+    }
+    
+    #kuhinja {
+        margin-top: 20px; 
+    }
+
+    #kupaonica, #dnevni, #eksterijer, #posebni {
+        margin-top: 50px;
+    }
+    
+    .my-slider img {
+        object-fit: contain;
+        width: 90%;
+        height: 350px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #kartica2 {
+        margin-bottom: 0;
+    }
+}
+
+::-webkit-scrollbar-track
+ {
+     --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar-thumb
+ {
+     background-color: #131111;	
+     background-image: -webkit-linear-gradient(45deg,
+                                               rgba(255, 255, 255, .2) 25%,
+                                               transparent 25%,
+                                               transparent 50%,
+                                               rgba(255, 255, 255, .2) 50%,
+                                               rgba(255, 255, 255, .2) 75%,
+                                               transparent 75%,
+                                               transparent)
+ }

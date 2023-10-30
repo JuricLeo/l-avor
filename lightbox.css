@@ -1,0 +1,92 @@
+
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+}
+
+.lightbox-content p {
+    margin-bottom: 30px;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proizvod-lightbox {
+    width: 1000px;
+    height: auto;
+    max-height: 90%;
+    background-color: #1F2833;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    margin: -50px 25px -50px 25px;
+    color: white;
+}
+
+.proizvod-lightbox img {
+    width: 50%;
+}
+
+    .proizvod-lightbox img:hover {
+        width: 99%;
+        transition: 0.2s;
+    }
+
+.lightbox-stolovi {
+    margin: 20px 0;
+}
+
+@media (max-width: 814px) {
+    .proizvod-lightbox img {
+        width: 80%;
+    }
+
+    .proizvod-lightbox img:hover {
+        width: 100%;
+        transition: 0.2s;
+    }
+}
+
+#hamburger2 {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    width: 60px;
+    margin: auto;
+
+}
+
+.bar2 {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+
+.bar2:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.bar2:nth-child(2) {
+    opacity: 0;
+}
+
+.bar2:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#button1:hover > #bar21 { 
+    background: dodgerblue;
+    width: 101%;
+}

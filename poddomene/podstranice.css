@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-weight: bolder; 
+}
+
+#infobody {
+    background: url(../images/karticabg1.jpg);
+}
+
+body {
+    background: linear-gradient(#131313, #272727);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#podstranicalogo {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+    #podstranicalogo img {
+        width: 30%;
+    }
+
+#infofooter {
+    background: url(../images/karticabg1.jpg);
+}
+
+/*footer*/
+#savkontakt {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+
+.savokontaktdiv {
+    width: 33%;
+}
+
+#radnovrijeme {
+    margin-top: 2%;
+    color: black;
+    padding: 0 20px;
+}
+
+#logobot img {
+    object-fit: cover;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#socials2 {
+    padding-bottom: 10px;
+}
+
+    #socials2 h4 {
+        margin-top: 15px;
+    }
+
+#socials1 h4 {
+    margin-top: 5px;
+}
+
+    #socials1, #socials2 {
+        font-size: 20px;
+        color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #social i {
+        margin: auto;
+    }
+
+    #social1 {
+        background-color: none;
+        padding: 10px;
+        font-size: 70px;
+        color: #d4af37;
+    }
+
+        #social1:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    #social2 {
+        background-color: none;
+        padding: 10px;
+        font-size: 70px;
+        color: #d4af37;
+    }
+
+        #social2:hover {
+            padding: 11px 15px 11px 15px;
+            transition: 0.3s;
+        }
+
+    .bxxx {
+        color: #d4af37;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    #socials1 h4 {
+        padding-top: 10px;
+    }
+
+    #socials2 a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+/* galerija */
+#treci {
+    background-color: #272727;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#treci img {
+    cursor: pointer;
+}
+
+#headerpodstranicegal {
+    display: flex;
+    flex-direction: row;
+}
+
+#naslovpodstranice {
+    text-align: center;
+    padding: 20px 220px 20px 0px;
+    color: white;
+    margin: auto;
+}
+
+#povratak {
+    border: 3px solid #FED766;
+    color: #FED766;
+    padding: 10px 20px 10px 20px;
+}
+
+    #a {
+        padding: 10px 0px 0px 10px;
+    }
+
+    #povratak:hover {
+        background-color: #272727;
+        transition: 0.5s;
+    }
+
+.grid-wrapper > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+.grid-wrapper > a > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+/* info */
+
+#headerpodstranice {
+    display: flex;
+    flex-direction: column;
+}
+
+#headerpodstranice a {
+    margin: auto;
+}
+
+#savinfo {
+    background-color: #272727;
+}
+
+#savinfo h1 {
+    margin: auto;
+    padding: 20px 20px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+#savinfo p {
+    color: white;
+    text-align: center;
+    padding: 20px 150px;
+}
+
+#savinfo li {
+    color: white;
+    text-align: center;
+    padding: 0px 150px;
+}
+
+#socials1 h4 {
+    padding-top: 10px;
+}
+
+#infologo {
+    width: 500px;
+    margin: auto;
+}
+
+#infologo1 {
+    width: 500px;
+    margin: auto;
+}
+
+#informacije {
+    color: white;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin: 0 140px;
+}
+
+#informacije h1,h3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#polja {
+    margin: 50px 100px 0px 100px;
+    color: black;
+}
+
+#forma {
+    margin: 0 140px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+form {
+    width: 100%;
+}
+
+#forma div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 12px 20px;
+}
+
+#forma label {
+    width: 150px;
+    padding-top: 12px;
+}
+
+#forma textarea {
+    padding: 12px 20px;
+}
+
+#id50 {
+    width: 400px;
+} 
+
+#id40 {
+    width: 800px;
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #131313;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#maps h1 {
+    margin: 40px 140px 0 140px;
+    color: white;
+    padding: 10px 0;
+}
+
+
+#maps p {
+    margin: 0 140px 20px 140px;
+    color: white;
+    padding: 10px 0;
+}
+
+#informacije a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@media(max-width: 1034px) {
+    #savinfo p, li {
+        padding: 20px 50px;
+    }
+
+    #forma div {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    #id50 {
+        width: 800px;
+    } 
+
+    #savkontakt {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#272727 5%, #EAD79A 90%);
+    }
+
+    .savokontaktdiv {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #radnovrijeme {
+        padding-bottom: 50px;
+    }
+
+#social {
+    margin: auto;
+}
+
+#logobot {
+    width: 90%;
+    margin: auto;
+    padding-right: 20px;
+}
+}
+
+
+
+
+::-webkit-scrollbar-track
+ {
+     --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar
+ {
+     width: 10px;
+     background-color: #F5F5F5;
+ }
+ 
+::-webkit-scrollbar-thumb
+ {
+     background-color: #131313;	
+     background-image: -webkit-linear-gradient(45deg,
+                                               rgba(255, 255, 255, .2) 25%,
+                                               transparent 25%,
+                                               transparent 50%,
+                                               rgba(255, 255, 255, .2) 50%,
+                                               rgba(255, 255, 255, .2) 75%,
+                                               transparent 75%,
+                                               transparent)
+ }
